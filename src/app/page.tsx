@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -223,7 +223,6 @@ export default function LandingPage() {
               imageAlt: "James Patterson portrait"
             }
           ]}
-          gridVariant="four-items-2x2-equal-grid"
           textboxLayout="default"
           animationType="slide-up"
         />
