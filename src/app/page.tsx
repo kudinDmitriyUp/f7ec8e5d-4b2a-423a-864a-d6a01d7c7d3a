@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import HeroSplit from '@/components/sections/hero/HeroSplit';
+import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import TextAbout from '@/components/sections/about/TextAbout';
 import FeatureCardFive from '@/components/sections/feature/FeatureCardFive';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
@@ -46,13 +46,13 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroSplit
+        <HeroBillboard
           title="Experience Luxury Hospitality"
           description="Discover your perfect getaway with world-class amenities, exceptional service, and unforgettable moments at LuxeStay Hotel."
           tag="Welcome"
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764379213239-aebmhyqz.jpg"
           imageAlt="Luxury hotel lobby with modern architecture"
-          imagePosition="right"
+          frameStyle="card"
           buttons={[
             { text: "Book a Room", href: "#pricing" },
             { text: "Learn More", href: "#about" }
